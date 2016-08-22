@@ -8,6 +8,7 @@ public class FirstTest {
     public static final String BASE_URL = "https://google.co.uk";
 
     public static void main(String[] args) {
+        // comment added
         System.setProperty(CHROME_WEB_DRIVER_KEY, CHROME_WEB_DRIVER_EXE_PATH);
         WebDriver driver = new ChromeDriver();
         String expectedTitle = "Google";
